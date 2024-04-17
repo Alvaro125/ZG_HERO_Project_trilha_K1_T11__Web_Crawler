@@ -51,7 +51,7 @@ class Task2 {
                 }
             }
 
-            searchHttp.createFile(informacoes, "./Downloads/historico_versoes_TISS.csv")
+            searchHttp.createFile(info, "./Downloads/historico_versoes_TISS.csv")
         } catch (Exception e) {
             println("Erro ao coletar informações: ${e.getMessage()}")
         }
